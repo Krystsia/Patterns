@@ -1,0 +1,14 @@
+## System and generated files
+.idea
+.DS_Store
+.sass-cache
+
+log/
+dist/
+node_modules/
+coverage/
+reports/
+.gradle
+
+npm-debug.log
+
