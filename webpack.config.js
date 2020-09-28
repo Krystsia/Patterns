@@ -17,6 +17,17 @@ module.exports = {
         },
         exclude: /(node_modules)/,
       },
+      {
+        test: /\.css$/,
+        loader: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+          },
+        ],
+      },
     ]
   },
   resolve: {

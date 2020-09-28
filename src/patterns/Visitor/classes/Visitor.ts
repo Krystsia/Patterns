@@ -18,8 +18,8 @@ export class Visitor implements IVisitor {
   }
 
   getTriangle(triangle: ITriangle) {
-    const {side1, side2, side3, radius} = triangle;
-    putToStore(ShapeEnum.Triangle, side1 * side2 * side3 / (4 * radius));
+    const {height} = triangle;
+    putToStore(ShapeEnum.Triangle, height * 4);
   }
 
   run(hosts: Array<IShape>) {
